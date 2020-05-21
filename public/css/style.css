@@ -1,0 +1,174 @@
+﻿@font-face {
+font-family: "unch";
+src:url(font/shadow.ttf) format("truetype");
+}
+body{
+margin: 0;
+}
+form {
+position: relative;
+width: 300px;
+margin: auto;
+margin-bottom:105;
+}
+.d1 {background: #04214d;}
+.d1 input {
+width: 100%;
+height: 42px;
+padding-left: 10px;
+border: 2px solid #ffffff;
+border-radius: 5px;
+outline: none;
+background: #FFFFFF;
+color: #9E9C9C;
+}
+.d1 button {
+position: absolute; 
+top: 0;
+right: 0px;
+width: 42px;
+height: 42px;
+border: none;
+background: #ffffff;
+border-radius: 0 5px 5px 0;
+cursor: pointer;
+}
+.d1 button:before {
+content: "\?";
+font-family: FontAwesome;
+font-size: 16px;
+color: #000000;
+}
+body {
+background: #f0f4f4;
+font-size: 20px;
+line-height: 50px;
+font-family: 'unch', sans-serif;
+font-weight: 300;
+}
+h2 {
+font-size: 40px;
+}
+h3 {
+font-size: 25px;
+}
+h4 {
+font-size: 25px;
+color: #ffffff;
+}
+h1, h2, h3, h4, h5, h6 {
+font-weight:500px ;
+line-height: 80px;
+}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+color: #04214d;
+text-decoration: none;
+}
+h1 strong, h2 strong, h3 strong, h4 strong, h5 strong, h6 strong {
+font-weight: 600;
+}
+a:hover {
+color: #4479D4;
+border-bottom-color: transparent;
+}
+p {
+display: block;
+font-size: 20px;
+margin: 30px 0px 30px 0px;
+line-height: 50px;
+}
+p2 {
+color: #DCDDE0;
+display: block;
+font-size: 15px;
+margin: -20px 0px 30px 0px;
+line-height: 50px;
+}
+.button {
+position: relative;
+display: inline-block;
+background-image: url("../images/logops.png");
+color: #000000;
+text-align: center;
+border-radius: 50px;
+border: 0;
+cursor: pointer;
+font-weight: 250px;
+top:-30px;
+transition: 1s;
+}
+.button:hover {
+transform: scale(1.2);
+}
+#menuznach a{
+margin-right: 100px;
+margin-bottom: 100px;
+transition: 3s;
+}
+#menuznach :hover {
+transform: scale(1.2);
+}
+#banner {
+background: #ffffff;
+text-align: center;
+padding: 45px 50px 100px 50px;
+}
+#fon1 {
+position: relative;
+margin: 0;
+color: #fff;
+text-align: center;
+padding: 300px 0px 150px 0px;
+}
+#fon1 .fon2 {
+position: relative;
+top:-90px;
+}
+#fon1 h1 {
+color: #fff;
+font-size: 90px;
+}
+#fon1 h1 a {
+color: #ffffff;
+}
+#fon1 .button {
+border-radius: 100%;
+width: 120px;
+height: 120px;
+line-height: 120px;
+font-size: 120,5px;
+padding: 0;
+}
+.exclusive {
+position: relative;
+overflow: hidden;
+padding: 20px 0px 20px 0px;
+margin-bottom: 0;
+}
+.exclusive .polozenie {
+padding: 70px 40px 0 80px;
+}
+.exclusive article {
+display: inline-block;
+width: 18em;
+background: #fff;
+text-align: center;
+padding: 0px 20px 0px 20px;
+margin: 0px 40px 0px 0px;
+}
+.exclusive article .image {
+position: relative;
+left: -20px;
+top: 0;
+margin-right: -40px;
+margin-bottom: 20px;
+}
+.image {
+position: relative;
+display: inline-block;
+}
+.image img {
+display: block;
+width: 100%;
+transition: 3s;
+}

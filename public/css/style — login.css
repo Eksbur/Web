@@ -1,0 +1,70 @@
+﻿body {
+font-family: 'Source Sans Pro', sans-serif;
+color: #404040;
+background: #04214d;
+}
+.container {
+margin: 80px auto;
+width: 640px;
+}
+.login {
+position: relative;
+margin: 150px auto 0 auto;
+padding: 20px 20px 20px;
+width: 310px;
+background: white;
+border-radius: 3px;
+}
+.login:before {
+content: '';
+position: absolute;
+top: -8px;
+right: -8px;
+bottom: -8px;
+left: -8px;
+z-index: -1;
+border-radius: 4px;
+}
+.login h5 {
+margin: 20px -25px 25px -25px;
+line-height: 40px;
+font-size: 50px;
+color: #000000;
+text-align: center;
+}
+.login input[type=text], .login input[type=password] {
+width: 278px;
+}
+input[type=text], input[type=password] {
+margin: 5px;
+padding: 0 10px;
+width: 200px;
+height: 34px;
+color: #000000;
+background: white;
+border: 1px solid;
+border-radius: 2px;
+}
+input[type=submit] {
+padding: 0 18px;
+height: 29px;
+font-size: 12px;
+font-weight: bold;
+color: #000000;
+text-shadow: 0 1px #e3f1f1;
+background: #ffffff;
+border: 1px solid;
+border-radius: 16px;
+}
+.c {
+border: 1px solid #333;
+display: inline-block;
+padding: 5px 15px;
+text-decoration: none;
+color: #000;
+margin: 15px 5px 5px 5px;
+}
+.c:hover {
+background:#04214d; 
+color: #ffffff;
+}
