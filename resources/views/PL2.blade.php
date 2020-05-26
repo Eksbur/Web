@@ -1,20 +1,6 @@
-﻿<html>
-<head>
-<title>PlayStation 1</title>
-<link rel="stylesheet" href="css/style — pl.css" />
-</head>
-<body>
-<div id="fon">
-<div id="menuznach">
-<a href="http://127.0.0.1:8000/index"><img src="images/logops.png" alt="" /></a>
-<a href="http://127.0.0.1:8000/PL1"><img src="images/pl1znach.png" alt="" /></a>
-<a href="http://127.0.0.1:8000/PL2"><img src="images/pl2znach.png" alt="" /></a>
-<a href="http://127.0.0.1:8000/PL3"><img src="images/pl3znach.png" alt="" /></a>
-<a href="http://127.0.0.1:8000/PL4"><img src="images/pl4znach.png" alt="" /></a>
-</div>
-</div>
-<div class="razmer">
-<header>
+﻿<title> PlayStation 2 </title>
+@extends('layouts.header')
+@section('content')
 <h2><a href="#">PlayStation 2</a></h2>
 <h4><a href="#">«Третье место»</a></h4>
 </header>
@@ -93,6 +79,4 @@ Sony создала свою PS2 так, что геймеры могут выб
 Выбор полностью зависит от эстетического чувства пользователя, поскольку система хорошо работает в любом положении. Маленький нюанс, 
 но он радует геймеров, и приятно думать, что PS2 первая из игровых консолей предложила такой вариант.
 </p>
-</div>
-</body>
-</html>
+@endsection

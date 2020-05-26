@@ -1,20 +1,6 @@
-﻿<html>
-<head>
-<title>PlayStation 3</title>
-<link rel="stylesheet" href="css/style — pl.css" />
-</head>
-<body>
-<div id="fon">
-<div id="menuznach">
-<a href="http://127.0.0.1:8000/index"><img src="images/logops.png" alt="" /></a>
-<a href="http://127.0.0.1:8000/PL1"><img src="images/pl1znach.png" alt="" /></a>
-<a href="http://127.0.0.1:8000/PL2"><img src="images/pl2znach.png" alt="" /></a>
-<a href="http://127.0.0.1:8000/PL3"><img src="images/pl3znach.png" alt="" /></a>
-<a href="http://127.0.0.1:8000/PL4"><img src="images/pl4znach.png" alt="" /></a>
-</div>
-</div>
-<div class="razmer">
-<header>
+﻿<title> PlayStation 3 </title>
+@extends('layouts.header')
+@section('content')
 <h2><a href="#">PlayStation 3</a></h2>
 <h4><a href="#">“Вот это жизнь!”</a></h4>
 </header>
@@ -105,6 +91,4 @@ PlayStation Store, PlayStation Home и другим сервисам. PlayStatio
 Она же обладает правами и на использование данного шрифта, Кэн Кутараги лично настоял на том, чтобы этот же шрифт использовался и для отображения названия приставки.
 От использования Spider-man font компания отказалась в 2009 году, заявив, что хочет дать бренду новое направление.
 </p>
-</div>
-</body>
-</html>
+@endsection

@@ -1,20 +1,8 @@
-﻿<html>
-<head>
-<title>PlayStation 1</title>
-<link rel="stylesheet" href="css/style — pl.css" />
-</head>
-<body>
-<div id="fon">
-<div id="menuznach">
-<a href="http://127.0.0.1:8000/index"><img src="images/logops.png" alt="" /></a>
-<a href="http://127.0.0.1:8000/PL1"><img src="images/pl1znach.png" alt="" /></a>
-<a href="http://127.0.0.1:8000/PL2"><img src="images/pl2znach.png" alt="" /></a>
-<a href="http://127.0.0.1:8000/PL3"><img src="images/pl3znach.png" alt="" /></a>
-<a href="http://127.0.0.1:8000/PL4"><img src="images/pl4znach.png" alt="" /></a>
-</div>
-</div>
-<div class="razmer">
-<header>
+﻿@extends('layouts.header')
+@section('title')
+ <title> PlayStation 1 </title>
+@endsection
+@section('content')
 <h2><a href="#">PlayStation 1</a></h2>
 <h4><a href="#">«Живи в своём мире. Играй в нашем»</a></h4>
 </header>
@@ -84,6 +72,4 @@ GUI PSone имеет серый фон с двумя иконками: одна 
 На момент 30 сентября 2007 года во всем мире было выпущено 7918 наименований игр и другого программного обеспечения для PlayStation 
 общим количеством 961 миллион штук. Последней игрой, выпущенной в Соединенных Штатах стала FIFA Football 2005.
 </p>
-</div>
-</body>
-</html>
+@endsection

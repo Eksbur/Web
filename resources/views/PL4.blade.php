@@ -1,20 +1,6 @@
-﻿<html>
-<head>
-<title>PlayStation 4</title>
-<link rel="stylesheet" href="css/style — pl.css" />
-</head>
-<body>
-<div id="fon">
-<div id="menuznach">
-<a href="http://127.0.0.1:8000/index"><img src="images/logops.png" alt="" /></a>
-<a href="http://127.0.0.1:8000/PL1"><img src="images/pl1znach.png" alt="" /></a>
-<a href="http://127.0.0.1:8000/PL2"><img src="images/pl2znach.png" alt="" /></a>
-<a href="http://127.0.0.1:8000/PL3"><img src="images/pl3znach.png" alt="" /></a>
-<a href="http://127.0.0.1:8000/PL4"><img src="images/pl4znach.png" alt="" /></a>
-</div>
-</div>
-<div class="razmer">
-<header>
+﻿ <title> PlayStation 4 </title>
+@extends('layouts.header')
+@section('content')
 <h2><a href="#">PlayStation 4</a></h2>
 <h4><a href="#">"Величие грядет. PlayStation"</a></h4>
 </header>
@@ -105,6 +91,4 @@ DualShock 4 — новая версия контроллера семейств�
 использовать разные цвета подсветки позволяют игрокам по мнению компании более четко идентифицировать себя, а в играх, если разработчики посчитают нужным,
 может использоваться в качестве дополнительных индикаторов, например, в Killzone: Shadow Fall цвет индикатора показывает состояние здоровья главного героя.
 </p>
-</div>
-</body>
-</html>
+@endsection
