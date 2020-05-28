@@ -1,20 +1,14 @@
-﻿<html>
-<head>
-<title>God of War</title>
-<link rel="stylesheet" href="css/style — god of war.css" />
-</head>
-<body>
-<div id="header">
-<div class="logo">
-<header>
-<a href="#" class="image"><img src="images/logogod.png" alt="" /></a>
-</header>
-</div>
-</div>
-<div class="container">
-<div class="polozenie">
-<div class="pic2">
-<header>
+﻿@extends('layouts.headerg')
+@section('title')
+God of War
+@endsection
+@section('link')
+ <link rel="stylesheet" href="css/style — god of war.css" />
+@endsection
+@section('logo')
+ <a href="#" class="image"><img src="images/logogod.png" alt="" /></a>
+@endsection
+@section('content')
 <h1><a href="#">God of War</a></h1>
 <h2><a>
 "Более опытный воин может выиграть бой. 
@@ -151,8 +145,4 @@ God of War не стыдится ни юмора, ни ярких красок, 
 которая успешно пережила пять сложнейших лет разработки игры".
 </p>
 </p>
-</div>
-</body>
-</html>
-</body>
-</html>
+@endsection

@@ -1,5 +1,6 @@
-﻿<title> PlayStation 3 </title>
-@extends('layouts.header')
+﻿@extends('layouts.header')
+@section('title')
+ <title> PlayStation 3 </title>
 @section('content')
 <h2><a href="#">PlayStation 3</a></h2>
 <h4><a href="#">“Вот это жизнь!”</a></h4>

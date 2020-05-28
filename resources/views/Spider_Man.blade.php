@@ -1,20 +1,14 @@
-﻿<html>
-<head>
-<title>Spider Man</title>
+﻿@extends('layouts.headerg')
+@section('title')
+Spider Man
+@endsection
+@section('link')
 <link rel="stylesheet" href="css/style — spider man.css" />
-</head>
-<body>
-<div id="header">
-<div class="logo">
-<header>
+@endsection
+@section('logo')
 <a href="#" class="image"><img src="images/logospider.png" alt="" /></a>
-</header>
-</div>
-</div>
-<div class="container">
-<div class="polozenie">
-<div class="pic2">
-<header>
+@endsection
+@section('content')
 <h1><a href="#">Spider Man</a></h1>
 <h2><a>
 "Чтобы изменить мир, нужно быть человеком, который готов принимать самые трудные решения."</a></h2>
@@ -165,8 +159,4 @@ Marvelʼs Spider-Man — хороший и очень важный проект,
 никого не хочет – стреляет во всех подряд и жаждет крови каждого, кто хоть сколько-то имеет отношение
 к Твердолобому. Сам он, к слову, как и ожидалось, не только не погиб от руки госпожи Ватанабе,
 но и превратился в некоего киборга, у которого от старины Кувалды только голова и осталась.</p>
-</div>
-</body>
-</html>
-</body>
-</html>
+@endsection

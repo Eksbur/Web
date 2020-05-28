@@ -1,20 +1,14 @@
-﻿<html>
-<head>
-<title>inFamous: Second Son</title>
+﻿@extends('layouts.headerg')
+@section('title')
+inFamous: Second Son
+@endsection
+@section('link')
 <link rel="stylesheet" href="css/style — infamos.css" />
-</head>
-<body>
-<div id="header">
-<div class="logo">
-<header>
+@endsection
+@section('logo')
 <a href="#" class="image"><img src="images/logoinf.png" alt="" /></a>
-</header>
-</div>
-</div>
-<div class="container">
-<div class="polozenie">
-<div class="pic2">
-<header>
+@endsection
+@section('content')
 <h1><a href="#">inFamous: Second Son</a></h1>
 <h2><a>
 "Человек нервничает в двух случаях: либо он трус, либо ему есть что скрывать."</a></h2>
@@ -157,8 +151,4 @@ Second Son - это лучшая игра, которую когда-либо в
 <hr>
 <p>
 Бесплатное DLC с функциям «альтернативной реальности». История разделена на шесть частей, и в ней рассказывается о маленькой девочке Челии, обладающей «бумажной» способностью. Каждая часть выходила с 28 марта каждую пятницу. Выпуск заключительной части состоялся 25 апреля 2014 года.</p>
-</div>
-</body>
-</html>
-</body>
-</html>
+@endsection

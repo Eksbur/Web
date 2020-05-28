@@ -1,20 +1,14 @@
-﻿<html>
-<head>
-<title>Days Gone</title>
-<link rel="stylesheet" href="css/style — Days Gone.css" />
-</head>
-<body>
-<div id="header">
-<div class="logo">
-<header>
-<a href="#" class="image"><img src="images/logodays.png" alt="" /></a>
-</header>
-</div>
-</div>
-<div class="container">
-<div class="polozenie">
-<div class="pic2">
-<header>
+﻿@extends('layouts.headerg')
+@section('title')
+Days Gone
+@endsection
+@section('link')
+ <link rel="stylesheet" href="css/style — Days Gone.css" />
+@endsection
+@section('logo')
+ <a href="#" class="image"><img src="images/logogod.png" alt="" /></a>
+@endsection
+@section('content')
 <h1><a href="#">Days Gone</a></h1>
 <h2><a>
 "Голодных патриотов не бывает.."</a></h2>
@@ -150,8 +144,4 @@ Days Gone — неплохая игра, но ставить ее в один р
 <p>
 Игра получила в основном «смешанные отзывы» от критиков и рецензентов различных изданий согласно данным агрегатора Metacritic. Средний балл 
 оценок игры составляет 71 балл из 100 на основе 108 рецензий от различных изданий. На другом сайте агрегаторе рецензий OpenCritic, средний балл основанный на 130 рецензиях, также составил 71 балл из 100 возможных.</p>
-</div>
-</body>
-</html>
-</body>
-</html>
+@endsection

@@ -1,20 +1,14 @@
-﻿<html>
-<head>
-<title>The Last of Us</title>
+﻿@extends('layouts.headerg')
+@section('title')
+The Last of Us
+@endsection
+@section('link')
 <link rel="stylesheet" href="css/style — the last of us.css" />
-</head>
-<body>
-<div id="header">
-<div class="logo">
-<header>
+@endsection
+@section('logo')
 <a href="#" class="image"><img src="images/logolast.png" alt="" /></a>
-</header>
-</div>
-</div>
-<div class="container">
-<div class="polozenie">
-<div class="pic2">
-<header>
+@endsection
+@section('content')
 <h1><a href="#">The Last of Us</a></h1>
 <h2><a>
 "От прошлого не убежишь и не скроешься. 
@@ -163,8 +157,4 @@ The Game Awards. 2 июля 2018 года была присуждена очер
 Главной игрой 2010-х пользователи официального блога PlayStation признали The Last of Us. Персонажи, драма и жуткий экшен в
  знаковом эксклюзиве платформы оставили у геймеров настолько большие впечатления, что в итоге проект студии Naughty Dog получил
  свыше 11% всех голосов, став обладателем заслуженной "платиновой" награды.</p>
-</div>
-</body>
-</html>
-</body>
-</html>
+@endsection

@@ -1,20 +1,14 @@
-﻿<html>
-<head>
-<title>Shadow of the Colossus</title>
+﻿@extends('layouts.headerg')
+@section('title')
+Shadow of the Colossus
+@endsection
+@section('link')
 <link rel="stylesheet" href="css/style — Shadow of the Colossus.css" />
-</head>
-<body>
-<div id="header">
-<div class="logo">
-<header>
+@endsection
+@section('logo')
 <a href="#" class="image"><img src="images/logosgadow.png" alt="" /></a>
-</header>
-</div>
-</div>
-<div class="container">
-<div class="polozenie">
-<div class="pic2">
-<header>
+@endsection
+@section('content')
 <h1><a href="#">Shadow of the Colossus</a></h1>
 <h2><a>
 "Тень Колосса"</a></h2>
@@ -157,8 +151,4 @@ Shadow Of The Colossus получила премию BAFTA в области и�
 <hr>
 <p>
 Японский геймдизайнер, сценарист и продюсер разработки компьютерных игр. Известен как создатель игр Ico (2001), Shadow of the Colossus (2005), The Last Guardian (2016).</p>
-</div>
-</body>
-</html>
-</body>
-</html>
+@endsection

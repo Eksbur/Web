@@ -1,20 +1,14 @@
-﻿<html>
-<head>
-<title>Uncharted 4</title>
+﻿@extends('layouts.headerg')
+@section('title')
+ <title> Days Gone </title>
+@endsection
+@section('link')
 <link rel="stylesheet" href="css/style — Uncharted 4.css" />
-</head>
-<body>
-<div id="header">
-<div class="logo">
-<header>
-<a href="#" class="image"><img src="images/logounch.png" alt="" /></a>
-</header>
-</div>
-</div>
-<div class="container">
-<div class="polozenie">
-<div class="pic2">
-<header>
+@endsection
+@section('logo')
+ <a href="#" class="image"><img src="images/logounch.png" alt="" /></a>
+@endsection
+@section('content')
 <h1><a href="#">Uncharted 4</a></h1>
 <h2><a>
 "У каждого сокровища своя цена."</a></h2>
@@ -165,8 +159,4 @@ Naughty Dog трудятся над The Last of Us Part II.</p>
 при этом сделать из Uncharted нового «Индиану Джонса» для тех, кто не успел вырасти на
 трилогии о знаменитом археологе. Сам фильм станет приквелом к игровой серии — Нил Дракманн 
 считает, что это намного более удачная идея, чем перенос на экраны одной из игр.</p>
-</div>
-</body>
-</html>
-</body>
-</html>
+@endsection

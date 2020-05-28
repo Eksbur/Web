@@ -1,6 +1,6 @@
 ﻿<html>
 <head>
-<title>PlayStation</title>
+<title>@yield('title')</title>
 <link rel="stylesheet" href="css/style — pl.css" />
 </head>
 <body>
