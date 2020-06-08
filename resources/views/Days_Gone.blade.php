@@ -6,7 +6,7 @@ Days Gone
  <link rel="stylesheet" href="css/style — Days Gone.css" />
 @endsection
 @section('logo')
- <a href="#" class="image"><img src="images/logogod.png" alt="" /></a>
+ <a href="#" class="image"><img src="images/logodays.png" alt="" /></a>
 @endsection
 @section('content')
 <h1><a href="#">Days Gone</a></h1>

@@ -79,4 +79,9 @@ class ApiController extends Controller
     {
     return view('Uncharted_4');
     }
+	
+	public function getArticles(Request $request)
+    {
+    return (new ArticleController())->show();
+    }
 }
