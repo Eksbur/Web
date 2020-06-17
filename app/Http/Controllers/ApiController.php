@@ -82,6 +82,6 @@ class ApiController extends Controller
 	
 	public function getArticles(Request $request)
     {
-    return (new ArticleController())->show();
+	return (new ArticleController())->show();
     }
 }

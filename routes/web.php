@@ -28,3 +28,4 @@ Route::get('/Shadow_of_the_Colossus','ApiController@Shadow_of_the_ColossusAction
 Route::get('/Spider_Man','ApiController@Spider_ManAction');
 Route::get('/The_Last_of_Us','ApiController@The_Last_of_UsAction');
 Route::get('/Uncharted_4','ApiController@Uncharted_4Action');
+Route::get('/getArticle','ApiController@getArticles');
