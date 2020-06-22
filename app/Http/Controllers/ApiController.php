@@ -13,41 +13,41 @@ class ApiController extends Controller
     
     public function PL1Action(Request $request)
     {
-    return view('PL1');
+    return view('PL1', ['PL1' => (new ArticleController())->showPl1()]);
     }
     
     public function PL2Action(Request $request)
     {
-    return view('PL2');
+    return view('PL2', ['PL2' => (new ArticleController())->showPL2()]);
     }
     
     public function PL3Action(Request $request)
     {
-    return view('PL3');
+    return view('PL3', ['PL3' => (new ArticleController())->showPL3()]);
     }
     
     public function PL4Action(Request $request)
     {
-    return view('PL4');
+    return view('PL4', ['PL4' => (new ArticleController())->showPL4()]);
     }
     
     public function BloodborneAction(Request $request)
     {
-    return view('Bloodborne');
+    return view('Bloodborne', ['Blood' => (new ArticleController())->showBlood()]);
     }
     
     public function Days_GoneAction(Request $request)
     {
-    return view('Days_Gone');
+    return view('Days_Gone', ['Days' => (new ArticleController())->showDays()]);
     }
     public function God_of_WarAction(Request $request)
     {
-    return view('God_of_War');
+    return view('God_of_War', ['God' => (new ArticleController())->showGod()]);
     }
     
     public function inFamous_Second_SonAction(Request $request)
     {
-    return view('inFamous_Second_Son');
+    return view('inFamous_Second_Son', ['Inf' => (new ArticleController())->showInf()]);
     }
     
     public function LoginAction(Request $request)
@@ -62,26 +62,27 @@ class ApiController extends Controller
     
     public function Shadow_of_the_ColossusAction(Request $request)
     {
-    return view('Shadow_of_the_Colossus');
+    return view('Shadow_of_the_Colossus', ['Shadow' => (new ArticleController())->showShadow()]);
     }
     
     public function Spider_ManAction(Request $request)
     {
-    return view('Spider_Man');
+    return view('Spider_Man', ['Spider' => (new ArticleController())->showSpider()]);
     }
     
     public function The_Last_of_UsAction(Request $request)
     {
-    return view('The_Last_of_Us');
+    return view('The_Last_of_Us', ['Last' => (new ArticleController())->showLast()]);
     }
     
     public function Uncharted_4Action(Request $request)
     {
-    return view('Uncharted_4');
+    return view('Uncharted_4', ['Unch' => (new ArticleController())->showUnch()]);
     }
 	
 	public function getArticles(Request $request)
     {
-	return (new ArticleController())->show();
+	return (new ArticleController())->showPl1();
     }
+	
 }
