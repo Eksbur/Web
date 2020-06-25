@@ -8,6 +8,11 @@ class ArticleController extends Controller
 {
      public function showPl1()
 	 {
+		return Article::where('status', 1 and 'status', 13)->get();
+	 }
+	 
+	 public function showsearch()
+	 {
 		return Article::where('status', 1)->get();
 	 }
 	 
@@ -63,5 +68,15 @@ class ArticleController extends Controller
 	 public function showDays()
 	 {
 		return Article::where('status', 12)->get();
+	 }
+	 
+	 public function shownew1()
+	 {
+		return Article::where('status', 13)->get();
+	 }
+	 
+	 public function search($title)
+	 {
+		return Article::where('title','like',  '%'.$title.'%')->get();
 	 }
 }

@@ -5,9 +5,9 @@
 </head>
 <body>
 <div class="d1">
-<form>
-<input type="text" placeholder="Искать здесь...">
-<button type="submit"></button>
+<form method="get" action="/search" id="search_form">
+<input type="search" name="search_field" placeholder="Поиск"/>
+<input type="submit" class="btn" value="Найти">
 </form>
 <div id="fon1">
 <div class="fon2">
@@ -30,7 +30,7 @@
 <a href="http://127.0.0.1:8000/PL3" class="image2"><img src="images/pl3znach.png" alt="" /></a>
 <a href="http://127.0.0.1:8000/PL4" class="image2"><img src="images/pl4znach.png" alt="" /></a>
 </div>
-<h3><a href="http://127.0.0.1:8000/Login">Войти/Зарегистрироваться</a></h3>
+	<h3><a href="http://127.0.0.1:8000/Login">Аккаунт</a></h3>
 <p>Ниже вы можете посмотреть на главные эксклюзивные игры PlayStation.</p>
 </header>
 </section>
@@ -106,6 +106,7 @@
 <p>Разработчик: Bend Studio </p>
 <p>Жанр:Action-adventure, Survival Horror
 </article>
+</div>
 </div>
 </section>	
 </body>

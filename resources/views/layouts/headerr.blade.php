@@ -7,9 +7,7 @@
   <section class="container">
     <div class="login">
       <h5>PlayStation</h5>
-      <form method="post" action="index.html">
 @yield('content')
-      </form>
     </div>
   </section>
 </body>

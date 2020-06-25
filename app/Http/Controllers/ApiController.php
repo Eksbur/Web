@@ -15,7 +15,13 @@ class ApiController extends Controller
     {
     return view('PL1', ['PL1' => (new ArticleController())->showPl1()]);
     }
-    
+	
+	public function SearchblockAction(Request $request)
+    {
+    return view('Searchblock', ['Searchblock' => (new ArticleController())->showPl1()]);
+    }
+	
+
     public function PL2Action(Request $request)
     {
     return view('PL2', ['PL2' => (new ArticleController())->showPL2()]);
@@ -80,9 +86,12 @@ class ApiController extends Controller
     return view('Uncharted_4', ['Unch' => (new ArticleController())->showUnch()]);
     }
 	
-	public function getArticles(Request $request)
+	public function search(Request $request)
     {
-	return (new ArticleController())->showPl1();
+	$articles = (new ArticleController())->search($request->search_field);
+	if (is_null($articles)){
+		return "Не найдено";
     }
-	
+	return view('Searchblock', ['Searchblock' => $articles]);
+	}
 }
